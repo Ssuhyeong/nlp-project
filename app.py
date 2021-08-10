@@ -5,10 +5,10 @@ from util import correct_sent
 
 app = Flask(__name__)
 
-@app.route('/')
+@app.route('/', methods=['POST'])
 
-def input('/', methods=['POST']):
+def input():
     input = request.form["input"]
-    return correct_sent(input) + 'ddddd'
+    return correct_sent(input)
 
 app.run(debug=True)
