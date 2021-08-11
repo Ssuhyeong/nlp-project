@@ -5,8 +5,8 @@ import requests
 from bs4 import BeautifulSoup
 from selenium import webdriver
 
-NAVER_CLIENT_ID = 'PP9m_gkbOYtwfpKjuvrk'
-NAVER_CLIENT_SECRET = 'dZEnzKBqIz'
+NAVER_CLIENT_ID = 'sd5S3_vMKWn83Tpk52OL'
+NAVER_CLIENT_SECRET = 'ybpeX6LytX'
 
 search_query = '올림'
 encode_type = 'json'
