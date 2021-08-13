@@ -1,1 +1,1 @@
-이 프로젝트는 Bert 모델과 FLASK를 활용하여 실습한 프로젝트
+Line Developer, heroku - Naver News Summarization
